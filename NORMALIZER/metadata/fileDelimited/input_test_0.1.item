@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_rTl2ULYZEeWzENh22yKSKQ" name="input_test" dataPackage="_rTl2UbYZEeWzENh22yKSKQ" Server="Localhost 127.0.0.1" FilePath="/home/vagrant/Downloads/TOS_DI-20151214_1327-V6.1.1/workspace/RESOURCES/input" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_rTl2UbYZEeWzENh22yKSKQ" name="default" dataManager="_rTl2ULYZEeWzENh22yKSKQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_rTl2UrYZEeWzENh22yKSKQ" id="_ZZLfMLYZEeWzENh22yKSKQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rTl2U7YZEeWzENh22yKSKQ" label="date" length="10" talendType="id_Date" pattern="&quot;yyyy/MM/dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rTl2VLYZEeWzENh22yKSKQ" label="feed" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rTl2VbYZEeWzENh22yKSKQ" label="water" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
